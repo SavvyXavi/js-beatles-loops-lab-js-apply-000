@@ -13,8 +13,8 @@
       var i = 0;
       var emptyArr = [];
       while (facts.length < 5){
-        facts++;
         emptyArr.push(facts[i] + '!!!');
+        facts++;
       }
         return emptyArr;
     }
